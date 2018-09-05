@@ -17,4 +17,5 @@ Uses JavaScript, HTML, CSS, and jQuery.
 -->
 ## Credits and Collaborations
 https://htmlcheatsheet.com/jquery/
+https://mediag.com/news/popular-screen-resolutions-designing-for-all/
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
