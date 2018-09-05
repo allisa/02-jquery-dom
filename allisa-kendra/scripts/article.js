@@ -34,6 +34,7 @@ Article.prototype.toHtml = function() {
       3. article title,
       4. article body, and
       5. publication date. */
+      
   $newArticle.find('h1').text(this.title);
   $newArticle.find('a').text(this.author);
   $newArticle.find('a').attr('href', this.authorUrl);
