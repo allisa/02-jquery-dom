@@ -1,7 +1,9 @@
 'use strict';
 
 // COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")?
-// PUT YOUR RESPONSE HERE
+// Each object in the rawData array is turned into an Article object in article.js using a contructor
+// function that takes each raw object's key/value pairs and creates key/value pairs in the newly created
+// Article object.
 
 let rawData = [
   {
