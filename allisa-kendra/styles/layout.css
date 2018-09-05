@@ -1,0 +1,38 @@
+.clearfix {
+  background-color: #fff1a4;
+  margin: 0 auto;
+  padding: 20px;
+}
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+nav li a {
+  color: gray; 
+}
+a {
+  text-decoration: none;
+}
+nav ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.icon-menu {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .icon-menu {
+    display: block;
+    float: right;
+  }
+  nav ul {
+    display: none;
+  }
+  
+}
